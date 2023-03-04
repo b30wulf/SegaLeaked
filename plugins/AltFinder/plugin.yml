@@ -1,0 +1,17 @@
+name: AltFinder
+version: 1.2.3
+api: [4.0.0]
+author: SpekledFrog
+description: Allows users to view all the usernames used from a player's IP
+main: Alt\MainClass
+
+commands:
+  alias:
+    description: "Allows users to view all the usernames one user has used"
+    usage: "/alias <username>"
+    permission: "alias.command.alias"
+
+permissions:
+  alias.command.alias:
+    default: op
+    description: "Allows ops to use the alias command"

@@ -1,0 +1,102 @@
+//File modified by @AmBro (OPEN SOURCE)
+//(c) Don't use any code design without permission!//
+//
+//---------------------------------------------------------------------------
+//
+// AmBro:
+// YouTube: https://www.youtube.com/c/AmBro69
+// Discord: AmBro#9269 , https://discord.gg/ZGK5WYXnEY
+// 
+// TERMS OF USE:
+// IF YOU PLAN ON SHARING THIS PACK, YOU MUST LINK MY YOUTUBE CHANNEL (https://www.youtube.com/c/AmBro69). YOU ARE NOT ALLOWED TO SEND DIRECT DOWNLOAD LINKS OR PUBLISH THIS PACK ON 3RD PARTY SITES
+//
+// YOU ARE ALLOWED TO:
+//- use this pack for personal/private purposes
+//- make private modifications to this pack
+//- showcase this pack in video media such as YouTube, assuming you credit me properly, as well as link my YouTube channel (https://www.youtube.com/c/AmBro69)
+//
+// YOU ARE NOT ALLOWED TO:
+//- share a direct download or link to a download to this pack. All links to download MUST go through the my YouTube channel
+//- modify this pack and distribute publicly
+//- distribute an unmodified version of this pack publicly (that means NO reuploading on 3rd party sites)
+//- use elements of this pack in your own resource pack/addon without permission from me (dm me on discord AmBro#9269 / https://discord.gg/ZGK5WYXnEY)
+//
+// ADDITIONAL:
+//- PLEASE RESPECT MY WORK
+//- Ale mrozi to cos jo dupia XDFDDxD
+//
+// FOR CONTENT CREATORS:
+//- If you reviewing this pack put in description linkvertise link
+//
+//---------------------------------------------------------------------------
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cosmeticmod": {
+			"loop": true,
+			"bones": {
+				"lwing": {
+					"rotation": ["25 + math.cos(150 - query.anim_time * 350.0) * 13", "23 + math.sin(query.anim_time * 350.0) * 20", "20  + math.sin(query.anim_time * 350.0) * 15"],
+					"position": [0.3, 0, "(query.has_armor_slot(1) + 0.5 ) - 0.5"],
+					"scale": 0.13
+				},
+				"lwing2": {
+					"rotation": [0, 0, "-35 + math.cos(query.anim_time * -350.0) * -38"]
+				},
+				"rwing": {
+					"rotation": ["25 + math.cos(150 + query.anim_time * -350.0) * 13", "-23 + math.sin(query.anim_time * -350.0) * 20", "-20 + math.sin(query.anim_time * -350.0) * 15"],
+					"position": [-0.3, 0, "(query.has_armor_slot(1) + 0.5 ) - 0.5"],
+					"scale": 0.13
+				},
+				"rwing2": {
+					"rotation": [0, 0, "35 + math.cos(query.anim_time * -350.0) * 38"]
+				},
+				"halo": {
+					"scale": 1.2
+				},
+				"root": {
+					"scale": 1
+				},
+				"scarf": {
+					"scale": 0.92
+				},
+				"scarf2": {
+					"rotation": ["-query.head_x_rotation(0) / 1.05", 0, "math.sin(query.body_y_rotation - query.head_y_rotation(0)) * 13"],
+					"position": [0, 0, -0.2]
+				},
+				"scarf3": {
+					"rotation": ["-query.head_x_rotation(0) / 1.05", 0, "math.sin(query.body_y_rotation - query.head_y_rotation(0)) * 13"],
+					"position": [0, 0, -0.2]
+				},
+				"capegeo": {
+					"rotation": ["math.clamp(math.lerp(0, -110, query.cape_flap_amount) - (13 * query.modified_move_speed), -70, 0)", "query.modified_move_speed * math.pow(math.sin(query.body_y_rotation - query.head_y_rotation(0)), 3) * 55", 0],
+					"position": [0, 0, "query.armor_texture_slot(1) == 5 ? 99999999999999"],
+					"scale": 0.995
+				},
+				"shield": {
+					"position": [0.1, 2, 0],
+					"scale": 1.5
+				},
+				"shield2": {
+					"position": [-0.5, 0, 0]
+				},
+				"rightsword": {
+					"rotation": [180, 0, 45],
+					"position": [-2, -7.25, 3.6],
+					"scale": 0.25
+				},
+				"leftsword": {
+					"rotation": [180, 180, -45],
+					"position": [2, -7.25, 1.6],
+					"scale": 0.25
+				},
+				"horns": {
+					"position": [0, -0.33, 0]
+				},
+				"santahat": {
+					"position": [0, -0.5, -0.5]
+				}
+			}
+		}
+	}
+}

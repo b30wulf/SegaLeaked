@@ -1,0 +1,97 @@
+//File modified by @AmBro (OPEN SOURCE)
+//(c) Don't use any code design without permission!//
+//
+//---------------------------------------------------------------------------
+//
+// AmBro:
+// YouTube: https://www.youtube.com/c/AmBro69
+// Discord: AmBro#9269 , https://discord.gg/ZGK5WYXnEY
+// 
+// TERMS OF USE:
+// IF YOU PLAN ON SHARING THIS PACK, YOU MUST LINK MY YOUTUBE CHANNEL (https://www.youtube.com/c/AmBro69). YOU ARE NOT ALLOWED TO SEND DIRECT DOWNLOAD LINKS OR PUBLISH THIS PACK ON 3RD PARTY SITES
+//
+// YOU ARE ALLOWED TO:
+//- use this pack for personal/private purposes
+//- make private modifications to this pack
+//- showcase this pack in video media such as YouTube, assuming you credit me properly, as well as link my YouTube channel (https://www.youtube.com/c/AmBro69)
+//
+// YOU ARE NOT ALLOWED TO:
+//- share a direct download or link to a download to this pack. All links to download MUST go through the my YouTube channel
+//- modify this pack and distribute publicly
+//- distribute an unmodified version of this pack publicly (that means NO reuploading on 3rd party sites)
+//- use elements of this pack in your own resource pack/addon without permission from me (dm me on discord AmBro#9269 / https://discord.gg/ZGK5WYXnEY)
+//
+// ADDITIONAL:
+//- PLEASE RESPECT MY WORK
+//- Ale mrozi to cos jo dupia XDFDDxD
+//
+// FOR CONTENT CREATORS:
+//- If you reviewing this pack put in description linkvertise link
+//
+//---------------------------------------------------------------------------
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.cape": {
+			"loop": true,
+			"bones": {
+				"cape": {
+					"rotation": ["math.clamp(math.lerp(0, -110, query.cape_flap_amount) - (13 * query.modified_move_speed), -70, 0)", "query.modified_move_speed * math.pow(math.sin(query.body_y_rotation - query.head_y_rotation(0)), 3) * 55", 0],
+					"position": [0, 0, "query.get_root_locator_offset('armor_offset.default_neck', 1)"]
+				},
+				"part1": {
+					"rotation": ["math.clamp(query.cape_flap_amount, 0, 0.5) * (math.cos(query.modified_distance_moved * 18) * 16)", 0, "0"]
+				},
+				"part2": {
+					"rotation": ["math.clamp(query.cape_flap_amount, 0, 0.5) * math.cos(22 - query.modified_distance_moved * 18) * 13", 0, 0],
+					"scale": 1
+				},
+				"part3": {
+					"rotation": ["math.clamp(query.cape_flap_amount, 0, 0.5) * math.cos(50 - query.modified_distance_moved * 18) * 13", 0, 0]
+				},
+				"part4": {
+					"rotation": ["math.clamp(query.cape_flap_amount, 0, 0.5) * math.cos(76 - query.modified_distance_moved * 18) * 13", 0, 0]
+				},
+				"part5": {
+					"rotation": ["math.clamp(query.cape_flap_amount, 0, 0.5) * math.cos(100 - query.modified_distance_moved * 18) * 13", 0, 0]
+				},
+				"part6": {
+					"rotation": ["math.clamp(query.cape_flap_amount, 0, 0.5) * math.cos(122 - query.modified_distance_moved * 18) * 13", 0, 0]
+				},
+				"part7": {
+					"rotation": ["math.clamp(query.cape_flap_amount, 0, 0.5) * math.cos(142 - query.modified_distance_moved * 18) * 13", 0, 0]
+				},
+				"part8": {
+					"rotation": ["math.clamp(query.cape_flap_amount, 0, 0.5) * math.cos(160 - query.modified_distance_moved * 18) * 13", 0, 0]
+				},
+				"part9": {
+					"rotation": ["math.clamp(query.cape_flap_amount, 0, 0.5) * math.cos(176 - query.modified_distance_moved * 18) * 13", 0, 0]
+				},
+				"part10": {
+					"rotation": ["math.clamp(query.cape_flap_amount, 0, 0.5) * math.cos(190 - query.modified_distance_moved * 18) * 13", 0, 0]
+				},
+				"part11": {
+					"rotation": ["math.clamp(query.cape_flap_amount, 0, 0.5) * math.cos(202 - query.modified_distance_moved * 18) * 13", 0, 0]
+				},
+				"part12": {
+					"rotation": ["math.clamp(query.cape_flap_amount, 0, 0.5) * math.cos(212 - query.modified_distance_moved * 18) * 13", 0, 0]
+				},
+				"part13": {
+					"rotation": ["math.clamp(query.cape_flap_amount, 0, 0.5) * math.cos(220 - query.modified_distance_moved * 18) * 13", 0, 0]
+				},
+				"part14": {
+					"rotation": ["math.clamp(query.cape_flap_amount, 0, 0.5) * math.cos(226 - query.modified_distance_moved * 18) * 13", 0, 0]
+				},
+				"part15": {
+					"rotation": ["math.clamp(query.cape_flap_amount, 0, 0.5) * math.cos(230 - query.modified_distance_moved * 18) * 13", 0, 0]
+				},
+				"part16": {
+					"rotation": ["math.clamp(query.cape_flap_amount, 0, 0.5) * math.cos(232 - query.modified_distance_moved * 18) * 13", 0, 0]
+				},
+				"shoulders": {
+					"rotation": [0, "query.modified_move_speed * math.pow(math.sin(query.body_y_rotation - query.head_y_rotation(0)), 3) * 60", 0]
+				}
+			}
+		}
+	}
+}

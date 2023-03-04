@@ -1,0 +1,12 @@
+lobbyname: "lobby1"
+
+standart_cape: ["Blue_Creeper", "Enderman", "Energy", "Fire", "Red_Creeper", "Turtle", "Pickaxe", "Firework", "Iron_Golem"]
+
+title: "§7[§cSE§fGA§r§7]" # Title toast
+broadcast:
+  delay: 60 # Delay message
+  message: # All message broadcast
+  - "§aJoin our Discord Server! §bdiscord.gg/segamc"
+  - "§aFound a hacker ingame? Do §c/report"
+  - "§aCheck our store at §bhttps://sega.tebex.io/"
+  - "§bThank you for playing!"

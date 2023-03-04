@@ -1,0 +1,27 @@
+# languages: German (deu), English (eng), French (fr), custom Messages (custom), Sächsisch (sachs)
+Language: eng
+
+# reasons why player report anyone
+# (advertising, hacking)
+Reasons:
+- Hacking
+- Spam
+- Racism
+- Toxic
+
+# choose sqlite or mysql
+provider: sqlite
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  username: ""
+  password: ""
+  database: ""
+  table: ""
+
+# when you want, that the reports will send to a discord server, set them to true
+SendToDiscord: true
+# name of Discord webhook
+WebhookName: "Guardian"
+# url of Discord webhook
+Webhook: "https://discord.com/api/webhooks/941645635361308723/PlzQMfXCoLA4UvtQqEKNcHH4YMinos5g5vWpNi-iLZJtePPvqECCiSWK551V7D0xXXnB"

@@ -1,0 +1,8 @@
+{
+  "hud_screen@common.base_screen": {
+    "$screen_content": "hud.hud_content"
+  },
+  "hud_tip_text": {
+    "offset": [ 0, -55 ]
+  }
+}

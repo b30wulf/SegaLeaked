@@ -1,0 +1,289 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "grass_side": {
+      "textures": [
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#79c05a"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#8ab689"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#bfb755"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#59c93c"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#55c93f"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#88bb66"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#86b87f"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#64c73f"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#86b783"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#83b593"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#80b497"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#91bd59"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#90814d"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#8eb971"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#6a7039"
+        },
+        {
+          "path": "textures/blocks/grass_side",
+          "overlay_color": "#507a32"
+        },
+        "textures/blocks/grass_side_snowed"
+      ]
+    },
+    "grass_top": {
+      "textures": [
+        "textures/blocks/grass_top",
+        "textures/blocks/grass_top",
+        "textures/blocks/grass_top",
+        "textures/blocks/grass_top",
+        "textures/blocks/grass_top",
+        "textures/blocks/grass_top",
+        "textures/blocks/grass_top",
+        "textures/blocks/grass_top",
+        "textures/blocks/grass_top",
+        "textures/blocks/grass_top",
+        "textures/blocks/grass_top",
+        "textures/blocks/grass_top",
+        "textures/blocks/grass_top",
+        "textures/blocks/grass_top",
+        "textures/blocks/grass_top",
+        "textures/blocks/grass_top",
+        "textures/blocks/grass_top"
+      ]
+    },
+    "grass_bottom": {
+      "textures": [
+        "textures/blocks/dirt",
+        "textures/blocks/dirt",
+        "textures/blocks/dirt",
+        "textures/blocks/dirt",
+        "textures/blocks/dirt",
+        "textures/blocks/dirt",
+        "textures/blocks/dirt",
+        "textures/blocks/dirt",
+        "textures/blocks/dirt",
+        "textures/blocks/dirt",
+        "textures/blocks/dirt",
+        "textures/blocks/dirt",
+        "textures/blocks/dirt",
+        "textures/blocks/dirt",
+        "textures/blocks/dirt",
+        "textures/blocks/dirt",
+        "textures/blocks/dirt"
+      ]
+    },
+    "grass_carried_top": {
+      "textures": "textures/blocks/grass_carried"
+    },
+    "grass_carried_bottom": {
+      "textures": "textures/blocks/dirt"
+    },
+    "grass_carried": {
+      "textures": {
+        "path": "textures/blocks/grass_side",
+        "overlay_color": "#79c05a"
+      }
+    },
+    "flower_dandelion": {
+      "textures": "textures/blocks/flower_dandelion"
+    },
+    "flower_rose": {
+      "textures": [
+        "textures/blocks/flower_rose"
+      ]
+    },
+	"flower_blue_orchid": {
+      "textures": [
+        "textures/blocks/flower_blue_orchid"
+      ]
+    },
+	"flower_allium": {
+      "textures": [
+        "textures/blocks/flower_allium"
+      ]
+    },
+	"flower_houstonia": {
+      "textures": [
+        "textures/blocks/flower_houstonia"
+      ]
+    },
+	"flower_tulip_red": {
+      "textures": [
+        "textures/blocks/flower_tulip_red"
+      ]
+    },
+	"flower_tulip_orange": {
+      "textures": [
+        "textures/blocks/flower_tulip_orange"
+      ]
+    },
+	"flower_tulip_white": {
+      "textures": [
+        "textures/blocks/flower_tulip_white"
+      ]
+    },
+	"flower_tulip_pink": {
+      "textures": [
+        "textures/blocks/flower_tulip_pink"
+      ]
+    },
+	"flower_oxeye_daisy": {
+      "textures": [
+        "textures/blocks/flower_oxeye_daisy"
+      ]
+    },
+	"flower_cornflower": {
+      "textures": [
+        "textures/blocks/flower_cornflower"
+      ]
+    },
+	"flower_lily_of_the_valley": {
+      "textures": [
+        "textures/blocks/flower_lily_of_the_valley"
+      ]
+    },
+	"flower_wither_rose": {
+      "textures": [
+        "textures/blocks/flower_wither_rose"
+      ]
+    },
+	"double_plant_rose_top": {
+      "textures": [
+        "textures/blocks/double_plant_rose_top"
+      ]
+    },
+	"double_plant_rose_bottom": {
+      "textures": [
+        "textures/blocks/double_plant_rose_bottom"
+      ]
+    },
+	"double_plant_paeonia_top": {
+      "textures": [
+        "textures/blocks/double_plant_paeonia_top"
+      ]
+    },
+	"double_plant_paeonia_bottom": {
+      "textures": [
+        "textures/blocks/double_plant_paeonia_bottom"
+      ]
+    },
+	"double_plant_syringa_top": {
+      "textures": [
+        "textures/blocks/double_plant_syringa_top"
+      ]
+    },
+	"double_plant_syringa_bottom": {
+      "textures": [
+        "textures/blocks/double_plant_syringa_bottom"
+      ]
+    },
+	"double_plant_sunflower_bottom": {
+      "textures": [
+        "textures/blocks/double_plant_sunflower_bottom"
+      ]
+    },
+	"double_plant_sunflower_top": {
+      "textures": [
+        "textures/blocks/double_plant_sunflower_top"
+      ]
+    },
+	"carrots_stage_3": {
+      "textures": [
+        "textures/blocks/carrots_stage_3"
+      ]
+    },
+	"potatoes_stage_3": {
+      "textures": [
+        "textures/blocks/potatoes_stage_3"
+      ]
+    },
+	"beetroots_stage_3": {
+      "textures": [
+        "textures/blocks/beetroots_stage_3"
+      ]
+    },
+	"wheat_stage_7": {
+      "textures": [
+        "textures/blocks/wheat_stage_7"
+      ]
+    },
+	"sweet_berry_bush_stage3": {
+      "textures": [
+        "textures/blocks/sweet_berry_bush_stage3"
+      ]
+    },
+	"sapling_acacia": {
+      "textures": [
+        "textures/blocks/sapling_acacia"
+      ]
+    },
+	"sapling_oak": {
+      "textures": [
+        "textures/blocks/sapling_oak"
+      ]
+    },
+	"sapling_birch": {
+      "textures": [
+        "textures/blocks/sapling_birch"
+      ]
+    },
+	"sapling_roofed_oak": {
+      "textures": [
+        "textures/blocks/sapling_roofed_oak"
+      ]
+    },
+	"sapling_spruce": {
+      "textures": [
+        "textures/blocks/sapling_spruce"
+      ]
+    },
+	"sapling_jungle": {
+      "textures": [
+        "textures/blocks/sapling_jungle"
+      ]
+    }
+  }
+}

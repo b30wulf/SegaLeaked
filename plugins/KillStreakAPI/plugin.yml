@@ -1,0 +1,5 @@
+name: KillStreakAPI
+version: 1.0.0
+main: SpekledFrog\KillStreak\KillStreak
+api: [4.0.0]
+author: SpekledFrog

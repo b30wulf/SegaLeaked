@@ -1,0 +1,22 @@
+---
+# & or § for colors
+# \n for newline
+
+# Title Form
+TitleForm: "Rules"
+
+# Rules
+Rules: "&8» &rNo Hacking\n&8» &rNo Cheating &rDon't be toxic &r No Racism"
+
+# Agree Buton
+AgreeButon: "I agree"
+
+# Confirming Message
+AgreedMessage: "[&l§cSE§fGA&f]&8»&aYou accepted the rules, have fun!"
+
+# Kick players from the server if they don't agree with the rules
+KickMode: true
+
+# Messages sent to players when they disagree with the rules
+KickMessage: "&e» &cPlease agree to the server's rules!"
+...

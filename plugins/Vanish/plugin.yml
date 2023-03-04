@@ -1,0 +1,32 @@
+---
+name: VanishV2
+main: superbobby\VanishV2\VanishV2
+api:
+- 4.1.0
+extensions:
+  Core: '>=7.4'
+version: 3.1.0
+author: superbobby
+commands:
+  vanish:
+    description: Enter vanish mode
+    permission: vanish.use
+    aliases:
+    - v
+permissions:
+  vanish.use:
+    description: Permission to use the vanish command
+    default: op
+  vanish.use.other:
+    description: Permission to vanish other player
+    default: op
+  vanish.see:
+    description: Permission to see vanished players
+    default: op
+  vanish.silent:
+    description: Permission to silently join the server
+    default: op
+  vanish.attack:
+    description: allows you to attack players while vanished
+    default: op
+...

@@ -1,0 +1,20 @@
+map.position=§f%s, %s, %s
+
+progressScreen.message.locating=Loading §cSE§fGA Textures...
+progressScreen.message.resourceLoading=You can join our discord server!!! dsc.gg/segamc
+progressScreen.loading=Loading...
+progressScreen.message.letsGo=Welcome to §cSE§fGA!!
+progressScreen.message.done=Welcome to §cSE§fGA!!
+
+menu.returnToGame=Back to §cSE§fGA
+menu.returnToMenu=Disconnect
+menu.quit=Disconnect
+
+pauseScreen.quit=Disconnect
+
+tile.glazedTerracotta.white.name=Sega White
+tile.glazedTerracotta.silver.name=Sega Light Gray
+tile.glazedTerracotta.gray.name=Sega Gray
+tile.glazedTerracotta.red.name=Sega Red
+tile.glazedTerracotta.pink.name=Sega Light Red
+tile.glazedTerracotta.magenta.name=Sega Dark Red

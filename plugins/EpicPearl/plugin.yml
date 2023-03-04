@@ -1,0 +1,8 @@
+---
+name: EpicPearl
+version: 0.0.1
+main: EpicPearl\SpekledFrog\Main
+api: 4.0.0
+author: SpekledFrog
+
+...

@@ -1,0 +1,107 @@
+# Configuration file for EasyModeration by Rushil13579 | Rushil#2326
+
+# Version [DO NOT TOUCH]
+plugin-version: '1.0.0'
+
+
+# ========== CHAT CENSOR ==========
+
+
+# Words that will be censored in player chats [can be extends as long as you wish] [keep empty to disable]
+# Give permission 'easymoderation.chatcensor.bypass' to bypass it
+chat-censor: [ 'fuck', '.com', 'discord.gg' ]
+
+
+# ========== CHAT INTERVAL ==========
+
+
+# Interval for chatting [Set to 0 to disable]
+# Give permission 'easymoderation.chatinterval.bypass' to bypass it [In seconds]
+chat-interval: 2
+
+
+# ========== WEBHOOKS ==========
+
+
+# Name of the webhook
+webhook-name: 'Guardian'
+
+
+# ===== IP BANS =====
+
+
+# Recommended to keep ipban & ipunban webhooks in private channels to prevent leaking ips of your players
+# Set this to 'enabled' if you want discord posts everytime a player gets ipbanned
+ipban-discord-post: enabled
+
+# Webhook url
+# Example: https://discord.com/api/webhooks/825780283365523456/o-yWCgL-TyTCxxZ-SHcMZhicVyhWHPk2n4n4PY6QdKrAFm9aUsfRJEXGFe7sAhrTEg9y
+ipban-webhook: 'https://discord.com/api/webhooks/941645635361308723/PlzQMfXCoLA4UvtQqEKNcHH4YMinos5g5vWpNi-iLZJtePPvqECCiSWK551V7D0xXXnB'
+
+
+# Set this to 'enabled' if you want discord posts everytime a player gets ipunbanned
+ipunban-discord-post: enabled
+
+# Webhook url
+ipunban-webhook: 'https://discord.com/api/webhooks/941645635361308723/PlzQMfXCoLA4UvtQqEKNcHH4YMinos5g5vWpNi-iLZJtePPvqECCiSWK551V7D0xXXnB'
+
+
+# ===== NORMAL BANS =====
+
+
+# Set this to 'enabled' if you want discord posts everytime a player gets permbanned
+permban-discord-post: enabled
+
+# Webhook url
+permban-webhook: 'https://discord.com/api/webhooks/941645635361308723/PlzQMfXCoLA4UvtQqEKNcHH4YMinos5g5vWpNi-iLZJtePPvqECCiSWK551V7D0xXXnB'
+
+
+# Set this to 'enabled' if you want discord posts everytime a player gets tempbanned
+tempban-discord-post: enabled
+
+# Webhook url
+tempban-webhook: 'https://discord.com/api/webhooks/941645635361308723/PlzQMfXCoLA4UvtQqEKNcHH4YMinos5g5vWpNi-iLZJtePPvqECCiSWK551V7D0xXXnB'
+
+
+# Set this to 'enabled' if you want discord posts everytime a player gets unbanned
+unban-discord-post: enabled
+
+# Webhook url
+unban-webhook: 'https://discord.com/api/webhooks/941645635361308723/PlzQMfXCoLA4UvtQqEKNcHH4YMinos5g5vWpNi-iLZJtePPvqECCiSWK551V7D0xXXnB'
+
+
+# ===== KICKS =====
+
+
+# Set this to 'enabled' if you want discord posts everytime a player gets kicked
+kick-discord-post: enabled
+
+# Webhook url
+kick-webhook: 'https://discord.com/api/webhooks/941645635361308723/PlzQMfXCoLA4UvtQqEKNcHH4YMinos5g5vWpNi-iLZJtePPvqECCiSWK551V7D0xXXnB'
+
+
+# ===== MUTES =====
+
+
+# Set this to 'enabled' if you want discord posts everytime a player gets muted
+mute-discord-post: enabled
+
+# Webhook url
+mute-webhook: 'https://discord.com/api/webhooks/941645635361308723/PlzQMfXCoLA4UvtQqEKNcHH4YMinos5g5vWpNi-iLZJtePPvqECCiSWK551V7D0xXXnB'
+
+
+# Set this to 'enabled' if you want discord posts everytime a player gets unmuted
+unmute-discord-post: enabled
+
+# Webhook url
+unmute-webhook: 'https://discord.com/api/webhooks/941645635361308723/PlzQMfXCoLA4UvtQqEKNcHH4YMinos5g5vWpNi-iLZJtePPvqECCiSWK551V7D0xXXnB'
+
+
+# ===== WARNS =====
+
+
+# Set this to 'enabled' if you want discord posts everytime a player gets warned
+warn-discord-post: enabled
+
+# Webhook url
+warn-webhook: 'https://discord.com/api/webhooks/941645635361308723/PlzQMfXCoLA4UvtQqEKNcHH4YMinos5g5vWpNi-iLZJtePPvqECCiSWK551V7D0xXXnB'

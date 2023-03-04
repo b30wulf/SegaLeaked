@@ -1,0 +1,33 @@
+name: SegaCore
+version: 1.0.4
+api: 4.0.0
+author: [ReVape, SpekledFrog, devgocri]
+main: SegaCore\Core\Main
+
+permissions:
+  sega.build:
+    default: op
+  sega.clearchat:
+    default: op
+  sega.mute:
+    default: op
+  sega.kick:
+    default: op
+  sega.announce:
+    default: op
+  sega.info:
+    default: op
+  sega.coin:
+    default: op
+  owners.dick:
+    default: op
+  sega.fly:
+    default: op
+  sega.antireach:
+    default: op
+  sega.staff:
+    default: op
+  sega.freeze:
+    default: op
+  sega.unfreeze:
+    default: op
